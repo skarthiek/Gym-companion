@@ -13,7 +13,7 @@ function DashboardPage() {
   const [loading, setLoading] = useState(false)
   const [error, setError] = useState('')
   
-  const API_URL = 'http://localhost:5001/api'
+  const API_URL = 'https://gym-companion.onrender.com/api'
   
   const handleChange = (e) => {
     const { name, value } = e.target

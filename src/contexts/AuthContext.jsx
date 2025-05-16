@@ -14,7 +14,7 @@ export function AuthProvider({ children }) {
   const [loading, setLoading] = useState(true)
   const [error, setError] = useState('')
 
-  const API_URL = 'http://localhost:5001/api'
+  const API_URL = 'https://gym-companion.onrender.com/api'
 
   useEffect(() => {
     const token = localStorage.getItem('token')
